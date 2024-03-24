@@ -31,13 +31,13 @@ pip install -r requirements.txt
 
 ### Reproduce the Discovery
 ```bash
-python transcribe_audio.py https://www.youtube.com/watch?v=GZ3zL7kT6_c
+python whisper_youtube_transcriber.py "https://www.youtube.com/watch?v=GZ3zL7kT6_c"
 ```
 
 ## Explore Further
 Feel free to experiment with other instrumental tracks and share your findings with us. We'd love to hear what the Whisper model has to say about your favorite songs!
 ```bash
-python transcribe_audio.py <URL>
+python whisper_youtube_transcriber.py "<URL>"
 ```
 
 
