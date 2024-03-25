@@ -1,7 +1,7 @@
 # Unveiling the Whisper Model's Secret Critique: The Unintended Musical Review
 
 ## Overview
-In a surprising twist, the Whisper model, celebrated for its powerful audio transcription skills, has seemingly disclosed its own "musical tastes." Assigned the job of transcribing instrumental audio from a music video, the model churned out an odd, repetitive transcript that appeared to pass judgment on the music in question. This repository is home to the code and approach we used to unearth this humorous oddity.
+In a surprising twist, the Whisper model, celebrated for its powerful audio transcription skills, has seemingly disclosed its own "musical tastes." Assigned the job of transcribing audio from a music video, the model churned out an odd, repetitive transcript that appeared to pass judgment on the music in question. This repository is home to the code and approach we used to unearth this humorous oddity.
 
 ## The Discovery
 
@@ -14,7 +14,7 @@ The Whisper model's output for the track "Lose control" by Teddy Swims was as fo
 
 
 # How to replicate our findings
-To replicate our findings or explore the Whisper model's "opinions" on other instrumental tracks, follow these steps:
+To replicate our findings or explore the Whisper model's "opinions" on other tracks, follow these steps:
 
 ## Prerequisites
 Ensure you have Python 3.8 or newer installed on your system.
@@ -35,7 +35,7 @@ python whisper_youtube_transcriber.py "https://www.youtube.com/watch?v=GZ3zL7kT6
 ```
 
 ## Explore Further
-Feel free to experiment with other instrumental tracks and share your findings with us. We'd love to hear what the Whisper model has to say about your favorite songs!
+Feel free to experiment with other tracks and share your findings with us. We'd love to hear what the Whisper model has to say about your favorite songs!
 ```bash
 python whisper_youtube_transcriber.py "<URL>"
 ```
